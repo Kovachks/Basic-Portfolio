@@ -6,14 +6,14 @@
 		<div class="Header">
 
 			<!-- Adding Header -->
-			<h1>Keith Kovach</h1>
+			<div class="Name"><h1 id="Header_Name">Keith Kovach</h1></div>
 			<link rel="stylesheet" href="css/style.css">
 			
 			<!-- Adding Nav Menu -->
 			<div class="Nav">
-				<a href="index.html">About</a>
-				<a href="portfolio.html">Portfolio</a>
-				<a href="contact.html">Contact</a>
+				<a href="index.html" class="about_contact">About</a>
+				<a href="portfolio.html" id="portfolio">Portfolio</a>
+				<a href="contact.html" class="about_contact">Contact</a>
 			</div>
 		</div>
 	</head>
@@ -22,11 +22,13 @@
 
 		<!-- Add main about me section -->
 		<div class="about_me">
-			<div id="About_Header"><h2>About Me</h2></div>
+			<h2 id="About_Header">About Me</h2>
 			<br>
-			<img src="images/Profile_Picture.jpg" alt="Picture of Keith Kovach">
-			<p>My name is Keith Kovach.  I was born in Cleveland, OH and lived there for the first 18 years of my life.  I went to college at the University of Cincinnati and majored in Accounting.  Once I graduated in 2013 I decided to follow my girlfriend to the carolinas and moved to Charlotte, NC.  I have lived here ever since and love it down here.</p>
-			<p>My hobbies include video games, which I mostly play World of Warcraft, Overwatch, Squad and a few select others depending on how I'm feeling.  I love sports and am an avid basketball player along with following my favorite teams which include the Cleveland Cavaliers, Cleveland Indians and all Cincinnati Bearcats athletic teams</p>
+			<div class="about_me_text">
+				<img src="images/Profile_Picture.jpg" alt="Picture of Keith Kovach" id="Profile_Picture">
+				<p>My name is Keith Kovach.  I was born in Cleveland, OH and lived there for the first 18 years of my life.  I went to college at the University of Cincinnati and majored in Accounting.  Once I graduated in 2013 I decided to follow my girlfriend to the carolinas and moved to Charlotte, NC.  I have lived here ever since and love it down here.</p>
+				<p>My hobbies include video games, which I mostly play World of Warcraft, Overwatch, Squad and a few select others depending on how I'm feeling.  I love sports and am an avid basketball player along with following my favorite teams which include the Cleveland Cavaliers, Cleveland Indians and all Cincinnati Bearcats athletic teams</p>
+			</div>
 		</div>
 
 		<!-- Adding Connect with me division -->
