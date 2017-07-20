@@ -3,13 +3,11 @@ head {
 	margin: 0;
 	padding: 0;
 }
-
 body {
 	background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/concrete_seamless.png");
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	margin: 0;
 }
-
 .Header {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	position: relative;
@@ -22,25 +20,21 @@ body {
 	border-bottom-color: #ccc;
 	z-index: 1;
 }
-
 .Name {
 	position: absolute;
 	height: 100%;
 	background-color: #4aaaa5;
 	width: 270px;
 	color: white;
-	left: 135px;
+	left: 160px;
 	text-align: center;
 	top: 0%;
 }
-
 #Header_Name {
 	position: absolute;
-	left: 22px;
 	top: 0px;
-
+	width: 100%;
 }
-
 .Nav {
 	position: absolute;
 	top: 35px;
@@ -57,24 +51,20 @@ body {
 	padding-left: 8px;
 	padding-right: 8px;
 	color: grey;
-
 }
-
 .about_contact {
 	text-decoration: none;
 	border-width: 50px;
 	color: grey;
 }
-
 .about_me {
 	position: relative;
 	width: 650px;
 	background-color: #ffffff;
 	top: 75px;
-	left: 135px;
+	left: 160px;
 	margin-top: 25px;
 }
-
 #About_Header {	
 	color: #4aaaa5;
 	border-bottom: 1px solid #ccc;
@@ -84,13 +74,11 @@ body {
 	padding-top: 25px;
 	padding-right: 20px;
 }
-
 #profile_picture{
 	float: left;
 	padding-right: 20px;
 	padding-left: 30px;
 }
-
 .about_me_text {
 	margin: 0;
 	margin-left: 30px;
@@ -98,18 +86,16 @@ body {
 	color: #777777;
 	margin-right: 30px;
 }
-
-#connect {
+.connect {
 	position: relative;
 	float: left;
 	left: 850px;
-	bottom: 260px;
+	bottom: 263px;
 	height: 200px;
 	width: 270px;
 	background-color: #ffffff;
 }
-
-#connect_with_me {
+.connect_with_me {
 	color: #4aaaa5;
 	font-size: 22px;
 	border-bottom: 1px solid #ccc;
@@ -118,29 +104,24 @@ body {
 	padding-bottom: 15px;
 	padding-top: 5px;
 }
-
-#social_media {
+.social_media {
 	margin-top: 10px;
 }
-
-#connect_image {
+.connect_image {
 	height: 60px;
 	width: 60px;
 }
-
-#left_connect_image {
+.left_connect_image {
 	height: 60px;
 	width: 60px;
 	margin-left: 40px;
 
 }
-
-#right_connect_image {
+.right_connect_image {
 	height: 60px;
 	width: 60px;
 	margin-right: 40px
 }
-
 .footer {
 	position: fixed;
 	height: ;
@@ -148,12 +129,41 @@ body {
 	width: 100%;
 	background-color: #666666;
 	border-top: 5px solid #4aaaa5;
-
 }
-
 .footer_copyright {
 	text-align: center;
 	color: #ffffff;
 	font-size: 10px;
 	padding: 8px 0 8px 0;
+}
+#contact {
+	position: relative;
+	width: 650px;
+	background-color: #ffffff;
+	top: 75px;
+	left: 160px;
+	margin-top: 25px;	
+}
+#contact_header {
+	color: #4aaaa5;
+	border-bottom: 1px solid #ccc;
+	margin: 0 30px 0 30px;
+	padding-bottom: 24px;
+	padding-top: 25px;
+	padding-right: 20px;
+}
+.contact_title {
+	font-weight: normal;
+	margin: 5px 0 5px 30px;
+	margin-left: 30px;
+}
+input {
+	width: 80%;
+	margin-left: 30px;
+	border-color: grey;
+	border-width: 1px;
+}
+#message_box {
+	height: 200px;
+	margin-bottom: 25px;
 }
